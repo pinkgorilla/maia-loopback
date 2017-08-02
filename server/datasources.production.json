@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "ds129023.mlab.com",
+    "port": 29023,
+    "url": "mongodb://maia:Standar123@ds129023.mlab.com:29023/maia-db",
+    "database": "maia-db",
+    "password": "Standar123",
+    "name": "mongodb",
+    "user": "maia",
+    "connector": "mongodb"
+  }
+}
