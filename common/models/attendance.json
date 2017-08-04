@@ -1,0 +1,39 @@
+{
+  "name": "Attendance",
+  "base": "BaseModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "guildId": {
+      "type": "string",
+      "required": true
+    },
+    "userId": {
+      "type": "string",
+      "required": true
+    },
+    "attend": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "gained": {
+      "type": "string"
+    },
+    "shared": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "remark": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

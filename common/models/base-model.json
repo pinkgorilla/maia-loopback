@@ -1,0 +1,26 @@
+{
+  "name": "BaseModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "Audit": {}
+  },
+  "hidden": [
+    "_active",
+    "_deleted",
+    "_createdDate",
+    "_createdBy",
+    "_createAgent",
+    "_updatedDate",
+    "_updatedBy",
+    "_updateAgent"
+  ],
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

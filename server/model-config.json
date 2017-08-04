@@ -14,25 +14,37 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongodb"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
+  },
+  "BaseModel": {
+    "dataSource": null,
+    "public": false
+  },
+  "Attendance": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Guild": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
